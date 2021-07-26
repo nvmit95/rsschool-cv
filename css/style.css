@@ -185,3 +185,21 @@ h2 {
   height: 250px;
   float: right;
 }
+footer {
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+a img {
+  width: 100px;
+  height: 100px;
+}
+.gh-link {
+  color: black;
+}
+.gh-link:hover {
+  color: blue;
+}
