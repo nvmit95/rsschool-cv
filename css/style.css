@@ -69,10 +69,6 @@ a:hover {
   text-decoration: none;
 }
 
-ul li {
-  list-style: none;
-}
-
 img {
   vertical-align: top;
 }
@@ -89,6 +85,7 @@ h6 {
 
 body {
   font-family: Roboto;
+  line-height: 150%;
 }
 .container {
   margin: 0 auto;
@@ -96,14 +93,16 @@ body {
 }
 h1 {
   font-weight: 800;
-  font-size: 24px;
+  font-size: 26px;
   padding: 15px 0;
   border-bottom: 2px solid black;
 }
 .contacts {
-  padding: 15px 0;
+  padding: 15px 0 0 0;
+  margin: 0 0 10px 0;
 }
 .contacts ol {
+  font-size: 16px;
   padding: 0 0 0 25px;
 }
 .contacts ol li {
@@ -112,8 +111,71 @@ h1 {
 .contacts p {
   padding: 0 0 15px 0;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
 }
 .contacts span {
   font-weight: 500;
+}
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 0 15px 0;
+}
+
+.about-me p {
+  padding: 0 0 10px 0;
+  font-size: 16px;
+}
+.about-me {
+  margin: 0 0 10px 0;
+}
+.my-skills ol {
+  font-size: 16px;
+  padding: 0 0 0 25px;
+}
+.my-skills ol li {
+  padding: 0 0 10px 0;
+}
+.my-skills ol li span {
+  background: #d3d3d3;
+}
+.my-skills {
+  margin: 0 0 10px 0;
+}
+.education {
+  margin: 20px 0 10px 0;
+}
+.education ol {
+  font-size: 16px;
+  padding: 0 0 0 25px;
+}
+.education ol li {
+  padding: 0 0 10px 0;
+}
+.experience {
+  margin: 0 0 10px 0;
+}
+.experience ol {
+  font-size: 16px;
+  padding: 0 0 0 25px;
+}
+.experience ol li {
+  padding: 0 0 10px 0;
+}
+.experience {
+  list-style: none;
+}
+
+.task {
+  padding: 10px 0 0 18px;
+}
+.languages {
+  margin: 0 0 10px 0;
+}
+.languages ol {
+  font-size: 16px;
+  padding: 0 0 0 25px;
+}
+.languages ol li {
+  padding: 0 0 10px 0;
 }
