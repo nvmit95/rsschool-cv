@@ -101,11 +101,11 @@ h1 {
   padding: 15px 0 0 0;
   margin: 0 0 10px 0;
 }
-.contacts ol {
+.contacts ul {
   font-size: 16px;
   padding: 0 0 0 25px;
 }
-.contacts ol li {
+.contacts ul li {
   padding: 0 0 10px 0;
 }
 .contacts p {
@@ -129,14 +129,14 @@ h2 {
 .about-me {
   margin: 0 0 10px 0;
 }
-.my-skills ol {
+.my-skills ul {
   font-size: 16px;
   padding: 0 0 0 25px;
 }
-.my-skills ol li {
+.my-skills ul li {
   padding: 0 0 10px 0;
 }
-.my-skills ol li span {
+.my-skills ul li span {
   background: #d3d3d3;
 }
 .my-skills {
