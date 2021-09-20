@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :focus,
 :active {
   outline: none;
@@ -89,13 +93,49 @@ body {
 }
 .container {
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1490px;
+  padding: 0 25px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav {
+  width: 400px;
+}
+.burger {
+  display: none;
+  width: 40px;
+}
+.burger div {
+  width: 35px;
+  height: 4px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
 }
 h1 {
   font-weight: 800;
   font-size: 26px;
   padding: 15px 0;
   border-bottom: 2px solid black;
+}
+.summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.summary li {
+  font-size: 17px;
+  list-style-type: none;
+  font-weight: 600;
+}
+.summary li a {
+  color: black;
+}
+.summary li a:hover {
+  color: blue;
 }
 .contacts {
   padding: 15px 0 0 0;
@@ -202,4 +242,40 @@ a img {
 }
 .gh-link:hover {
   color: blue;
+}
+.menu-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.8;
+}
+.menu-container nav {
+  width: 50%;
+  height: 90%;
+  padding: 10px 0;
+  background: white;
+  display: flex;
+  margin: 5% auto;
+}
+.menu-container nav .summary {
+  flex-direction: column;
+  margin: auto;
+  gap: 30px;
+}
+.menu-container nav .summary li {
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1240px) {
+  nav {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
 }
